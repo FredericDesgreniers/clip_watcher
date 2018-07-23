@@ -1,0 +1,13 @@
+[package]
+name = "twitch"
+version = "0.1.0"
+authors = ["Frederic Desgreniers <fredericdesgreniers@gmail.com>"]
+
+[dependencies]
+reqwest = "*"
+hyper = "0.11.27"
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+rayon = "1.0.2"
+failure = "0.1.1"
